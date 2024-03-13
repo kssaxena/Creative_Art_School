@@ -16,7 +16,7 @@ const Footer = () => {
           to="/work"
           className="p-2 font-extralight  hover:underline underline-offset-2"
         >
-          About
+          Gallery
         </Link>
         {/* <Link
           to="/about"
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col p-10 ml-10">
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
-          Instagram
+          YouTube
         </Link>
         {/* <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
           Git Hub
@@ -42,21 +42,21 @@ const Footer = () => {
           Linkedin
         </Link> */}
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
-          Facebook
+          Instagram
         </Link>
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
-          Mail 
+          Facebook 
         </Link>
       </div>
       <div className="flex flex-col p-10 ml-10">
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
-          Gallery
+          Register Here
         </Link>
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
          Admission Form
         </Link>
         <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
-          Locations
+          Location
         </Link>
       </div>
     </div>
