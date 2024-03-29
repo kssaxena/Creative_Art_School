@@ -1,17 +1,22 @@
+import { MapPinnedIcon } from "lucide-react";
+import HomeUtils1 from "../utils/HomeUtils1";
+import HomeUtils2 from "../utils/HomeUtils2";
+import Images from "../utils/Images";
+import { Link } from "react-router-dom";
+import MapLocation from "../utils/MapLocation";
+
 const Home = () => {
   return (
-    <div>
-      <div className="landing_quote">
-        <h1>The Vibrant World of Art: Unlocking Creativity</h1>
-        <h1>
-          Art, like a kaleidoscope, splashes colors across the canvas of our
-          existence. It transcends mere aesthetics; it is the heartbeat of our
-          shared humanity. From the ancient cave paintings that whispered
-          stories of forgotten civilizations to the avant-garde masterpieces
-          that challenge our perceptions, art has been our silent confidante,
-          our mirror, and our muse.
-        </h1>
-      </div>
+    <div className="bg-gray-200">
+      <section className="landing_photo_Paragraph">
+        <HomeUtils1 />
+      </section>
+      <section className="home_gallery_photo_Paragraph">
+        <HomeUtils2 />
+      </section>
+      <section className="home_map_location">
+        <MapLocation/>
+      </section>
     </div>
   );
 };
