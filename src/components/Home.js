@@ -1,8 +1,5 @@
-import { MapPinnedIcon } from "lucide-react";
 import HomeUtils1 from "../utils/HomeUtils1";
 import HomeUtils2 from "../utils/HomeUtils2";
-import Images from "../utils/Images";
-import { Link } from "react-router-dom";
 import MapLocation from "../utils/MapLocation";
 
 const Home = () => {

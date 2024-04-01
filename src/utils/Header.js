@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import { HomeIcon } from "lucide-react";
 
@@ -41,24 +41,29 @@ const Header = () => {
             Activities
           </Link>
           <Link
-            to={"/about"}
+            to={"/contact"}
             className={`p-5 font-medium text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:underline underline-offset-4 hover:decoration-[#FFC700] ${
-              location.pathname === "/about"
+              location.pathname === "/contact"
                 ? "underline decoration-[#FFC700] decoration-2 underline-offset-4"
                 : ""
             }`}
           >
-            About
+            Enquire Us
           </Link>
         </nav>
       </div>
       <div className="w-[33.33%]">
         <Link to={`/`} className="  text-black font-semibold text-xl">
-          Creative Art School
+          Creatives School of Arts
         </Link>
       </div>
       <div className="w-fit ">
-        <Button name={"Register Here"} />
+        <Link
+          to={"registration_&_admissions"}
+          className={`border-2 border-[#FFC700] p-2 text-lg rounded-md text-white font-semibold hover:bg-[#FFC700] duration-200 ease-in-out hover:text-black hover:shadow-md hover:shadow-black`}
+        >
+          Register here
+        </Link>
       </div>
     </div>
   );

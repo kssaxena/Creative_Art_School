@@ -5,6 +5,9 @@ import Header from "./utils/Header";
 import Footer from "./utils/Footer";
 import Gallery from "./components/Gallery";
 import Home from "./components/Home";
+import Activities from "./components/Activities";
+import RegistrationPage from "./components/RegistrationPage";
+import ContactPage from "./components/Contact";
 
 const AppLayout = () => {
   return (
@@ -29,6 +32,18 @@ const appRouter = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery />,
+      },
+      {
+        path: "/activities",
+        element: <Activities />,
+      },
+      {
+        path: "/registration_&_admissions",
+        element: <RegistrationPage />,
+      },
+      {
+        path: "/contact",
+        element: <ContactPage/>,
       },
     ],
   },

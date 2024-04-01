@@ -22,17 +22,17 @@ const HomeUtils1 = () => {
           that challenge our perceptions, art has been our silent confidante,
           our mirror, and our muse.
         </h1>
-        <div className="flex w-full justify-evenly items-center mt-10 ">
+        <div className="flex w-full justify-evenly items-center">
           <Link
-            to="/#"
-            className="border-2 border-[#FFC700] bg-[#FFC700] hover:bg-[#007F73] duration-150 ease-in-out delay-100 hover:scale-110 hover:border-none shadow-sm shadow-black w-1/4 flex justify-center items-center p-2 rounded-lg text-xl font-medium   "
+            to="registration_&_admissions"
+            className="w-1/4 border-2 border-[#FFC700] bg-[#FFC700] shadow shadow-black p-2 text-lg text-center rounded-md text-black font-semibold hover:bg-[#007F73] hover:border-[#007F73] hover:text-white duration-200 ease-in-out hover:shadow-md hover:shadow-black "
           >
             <h1>Register Here</h1>
           </Link>
           <h1 className="text-lg">or</h1>
           <Link
-            to="/#"
-            className=" border-2 border-[#FFC700] bg-[#FFC700] hover:bg-[#007F73] duration-150 ease-in-out delay-100 hover:scale-110 hover:border-none shadow-sm shadow-black w-1/4 flex justify-center items-center p-2 rounded-lg text-xl font-medium "
+            to="/contact"
+            className="w-1/4 border-2 border-[#FFC700] bg-[#FFC700] shadow shadow-black p-2 text-lg text-center rounded-md text-black font-semibold hover:bg-[#007F73] hover:border-[#007F73] hover:text-white duration-200 ease-in-out hover:shadow-md hover:shadow-black "
           >
             <h1>Contact Us</h1>
           </Link>
